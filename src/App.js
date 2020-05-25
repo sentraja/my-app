@@ -12,6 +12,8 @@ class App extends Component {
 
 
         <Person1 />
+        <Person1 />
+        <Person1 />
         {/* The first character should be in capital to make difference from the reserved HTML keyword like div - Div and so on. */}
 
       </div>
