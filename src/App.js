@@ -11,9 +11,9 @@ class App extends Component {
         <p> which is commented below you can see it.</p>
 
 
-        <Person1 />
-        <Person1 />
-        <Person1 />
+        <Person1 name="Senthil" age="33">My Hobbies are</Person1>
+        <Person1 name="Rohini" age="25">My Hobbies are</Person1>
+        
         {/* The first character should be in capital to make difference from the reserved HTML keyword like div - Div and so on. */}
 
       </div>
