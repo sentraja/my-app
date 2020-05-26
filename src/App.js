@@ -12,7 +12,9 @@ class App extends Component {
       { name: 'Raja K', age: 33 }
     ]
   }
-
+switchNameHandler = ()=>{
+console.log('am clicked');
+}
 
   render() {
     return (
@@ -20,8 +22,8 @@ class App extends Component {
         <h1> Hi! I am a react app...</h1>
         <p> This is awesome... We can have only one root div here. we can't have another root div.</p>
         <p> which is commented below you can see it.</p>
-
-        <button> Switch Name</button>
+{/* no paranthesis in func name bcos then it will call on load itsef, so we are passing the reference and so it wont call immediately */}
+        <button onClick={this.switchNameHandler}> Switch Name</button>
 
  {/* this keyword referes the class and the state and the elets respectively */}
         <Person1 name={this.state.persons[0].name} age={this.state.persons[0].age}>My Hobbies are: Reading, playing</Person1>
